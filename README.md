@@ -14,7 +14,7 @@ This project addresses common e-commerce pain points—such as "zero search resu
 
 ## 🎯 Business Objectives
 
-1.  **Solve the "Zero Result" Problem:** Enable the search engine to understand user intent (e.g., *"I want to host a BBQ party"*) rather than just matching keywords.
+1.  **Solve the "Zero Result" Problem:** Enable the search engine to understand user intent (e.g., *"ฉันอยากกินปาร์ตี้หมูกระทะ"*) rather than just matching keywords.
 2.  **Enhance Cross-Selling:** Automatically suggest relevant complementary products (Bundling Strategy).
 3.  **Technical Feasibility Study:** Assess the performance and scalability of vector databases with **20,000+ SKUs**.
 
@@ -55,7 +55,7 @@ Follow these steps to deploy the PoC on your local machine.
 
 ### 2. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/white-rose-ai-search.git](https://github.com/YOUR_USERNAME/white-rose-ai-search.git)
+git clone https://github.com/kamolchaisiri/white-rose-ai-search
 cd white-rose-ai-search
 ```
 
@@ -81,7 +81,7 @@ ollama run llama3.2
 python gen_white_rose_data.py
 
 # 3. Import data & create vector embeddings (This may take a few minutes)
-python import_white_rose.py
+python import_white_rose_data.py
 ```
 
 ### 6. Run the Application
@@ -131,4 +131,4 @@ white-rose-ai-search/
 
 This project was built to bridge the gap between business requirements and technical execution in AI-driven products. It serves as a practical demonstration of managing technical risks, understanding architectural trade-offs, and leading digital transformation initiatives.
 
-[**Connect on LinkedIn**](#) | [**View Portfolio**](#)
+
