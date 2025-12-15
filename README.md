@@ -77,8 +77,11 @@ Run the following commands to pull the model, generate mock data, and ingest it 
 # 1. Pull the Llama 3.2 model
 ollama run llama3.2
 
-# 2. Import data & create vector embeddings (This may take a few minutes)
-python import_white_rose.py
+# 2. Generate 20,000 mock SKUs (White Rose Dataset)
+python gen_white_rose_data.py
+
+# 3. Import data & create vector embeddings (This may take a few minutes)
+python import_white_rose_data.py
 ```
 
 ### 6. Run the Application
