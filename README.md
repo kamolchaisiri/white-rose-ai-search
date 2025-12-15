@@ -55,7 +55,7 @@ Follow these steps to deploy the PoC on your local machine.
 
 ### 2. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/white-rose-ai-search.git](https://github.com/YOUR_USERNAME/white-rose-ai-search.git)
+git clone https://github.com/kamolchaisiri/white-rose-ai-search
 cd white-rose-ai-search
 ```
 
