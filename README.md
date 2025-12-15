@@ -131,4 +131,4 @@ white-rose-ai-search/
 
 This project was built to bridge the gap between business requirements and technical execution in AI-driven products. It serves as a practical demonstration of managing technical risks, understanding architectural trade-offs, and leading digital transformation initiatives.
 
-[**Connect on LinkedIn**](#) | [**View Portfolio**](#)
+
