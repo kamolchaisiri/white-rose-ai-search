@@ -1,0 +1,12 @@
+# Python junk
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Database files (เราจะให้เขารัน script สร้างใหม่เอง ไม่ต้องอัปโหลดก้อนข้อมูล)
+opensearch-data/
+*.csv
+!products_white_rose.csv  # ยกเว้นไฟล์นี้ไว้อันนึง (ถ้าอยากแจกข้อมูลตัวอย่าง)
+# หรือถ้าไม่อยากอัป csv เลย ให้ลบบรรทัดบนทิ้ง แล้วใส่ *.csv เฉยๆ
