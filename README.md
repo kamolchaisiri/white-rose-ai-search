@@ -14,7 +14,7 @@ This project addresses common e-commerce pain points—such as "zero search resu
 
 ## 🎯 Business Objectives
 
-1.  **Solve the "Zero Result" Problem:** Enable the search engine to understand user intent (e.g., *"I want to host a BBQ party"*) rather than just matching keywords.
+1.  **Solve the "Zero Result" Problem:** Enable the search engine to understand user intent (e.g., *"ฉันอยากกินปาร์ตี้หมูกระทะ"*) rather than just matching keywords.
 2.  **Enhance Cross-Selling:** Automatically suggest relevant complementary products (Bundling Strategy).
 3.  **Technical Feasibility Study:** Assess the performance and scalability of vector databases with **20,000+ SKUs**.
 
