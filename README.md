@@ -32,3 +32,14 @@ This project demonstrates how integrating Large Language Models (LLMs) can enhan
 ### 2. Setup Database (Docker)
 ```bash
 docker-compose up -d
+
+
+### 3. Start Database (OpenSearch)
+```bash
+docker-compose up -d
+
+Wait for about 60 seconds for the node to initialize.
+
+### 4. Install Dependencies
+```bash
+pip install -r requirements.txt
