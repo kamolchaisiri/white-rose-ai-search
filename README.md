@@ -113,14 +113,14 @@ Once the application is running at `http://localhost:8501`:
 
 ```text
 white-rose-ai-search/
-├── api.py                   # FastAPI Backend & AI Logic
-├── ui.py                    # Streamlit Frontend Dashboard
-├── gen_white_rose_data.py   # Synthetic Data Generator (20k Items)
-├── import_white_rose_data.py     # ETL Pipeline (CSV -> Vector DB)
-├── products_white_rose.csv  # Generated Dataset
-├── docker-compose.yml       # OpenSearch Container Config
-├── requirements.txt         # Python Dependencies
-└── README.md                # Project Documentation
+├── api.py                      # FastAPI Backend & AI Logic
+├── ui.py                       # Streamlit Frontend Dashboard
+├── gen_white_rose_data.py      # Synthetic Data Generator (20k Items)
+├── import_white_rose_data.py   # ETL Pipeline (CSV -> Vector DB)
+├── products_white_rose.csv     # Generated Dataset
+├── docker-compose.yml          # OpenSearch Container Config
+├── requirements.txt            # Python Dependencies
+└── README.md                   # Project Documentation
 ```
 
 ---
